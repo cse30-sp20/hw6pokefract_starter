@@ -1,3 +1,7 @@
+/**
+ * Assignment: PokeFractals
+ * Class: UCSD CSE30-SP20
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
