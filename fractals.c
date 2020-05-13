@@ -59,17 +59,6 @@ int **recurse(int n)
     }
 }
 
-#if 0
-/*
- * Copies the given triangle into the appropriate position
- */
-void copyTriangle(int ** startPoint, int ** subPoints, int rowOffset, int colOffset, int numSubPoints ){
-    for (int i = 0; i < numSubPoints; ++i ){
-            startPoint[i][0] = subPoints[i][0] + rowOffset;
-            startPoint[i][1] = subPoints[i][1] + colOffset;
-    }
-}
-#endif
 
 /*
  * Allocates the required memory for the number of points
