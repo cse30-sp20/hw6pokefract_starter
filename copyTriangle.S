@@ -4,7 +4,7 @@
     .global copyTriangle
 
     .equ    FP_OFFSET,    //TODO
-    .equ    ARG_OFFSET,   //TODO
+    .equ    PARAM_OFFSET,   //TODO
 
 copyTriangle:
 
